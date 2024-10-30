@@ -160,10 +160,11 @@
         android:id="@+id/imageView6"
         android:layout_width="58dp"
         android:layout_height="45dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="10dp"
         app:layout_constraintEnd_toStartOf="@+id/edtPlacaVeiculo"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.583"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtNomeVeiculo"
         app:srcCompat="@drawable/number" />
@@ -176,7 +177,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="10dp"
         app:layout_constraintEnd_toStartOf="@+id/edtDistanciaPercorrida"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtPlacaVeiculo"
         app:srcCompat="@drawable/distance" />
@@ -189,7 +190,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="10dp"
         app:layout_constraintEnd_toStartOf="@+id/edtConsumoMedVeiculo"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.578"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtDistanciaPercorrida"
         app:srcCompat="@drawable/velocity" />
@@ -202,7 +203,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="10dp"
         app:layout_constraintEnd_toStartOf="@+id/edtPrecoLitro"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.687"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtConsumoMedVeiculo"
         app:srcCompat="@drawable/money" />
@@ -228,7 +229,7 @@
         android:layout_marginTop="56dp"
         android:layout_marginEnd="10dp"
         app:layout_constraintEnd_toStartOf="@+id/txtCusto"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtResultadoLitros"
         app:srcCompat="@drawable/coin" />
