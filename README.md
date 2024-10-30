@@ -1,15 +1,15 @@
 # **Fuel Saver**
 
-> Aplicativo que cadastra e lista seus usuários.
+> Aplicativo que cálcula litros necessários e o custo para uma viagem.
 
 ## 📱 Descrição
 
-O **App Agenda** solicita a entrada de dados e lista-os na tela principal.
+O **Fuel Saver** solicita a entrada de dados e retorna litros necessários e o custo para a viagem.
 
 ## 🔧 Funcionalidades
 
-- [x] Entrada de dados (Nome, CPF e Telefone)
-- [x] Pesquisa de usuários
+- [x] Entrada de dados (NomeVeículo, PlacaVeículo, Distancia, ConsumoMédio e PreçoPorLitro)
+- [x] Cálculo Litros e custo de viagem
 - [x] Interface simples e intuitiva
 
 ## 🚀 Tecnologias Utilizadas
@@ -17,8 +17,8 @@ O **App Agenda** solicita a entrada de dados e lista-os na tela principal.
 - [x] **Android Studio** (Koala | 2024.1.2)
 - [x] **Java** para desenvolvimento
 - [x] **ConstraintLayout** para interface responsiva
-- [x] **TextView**, **EditText**, **ListView** para entrada e exibição de dados
-- [x] **Menu** para cadastrar e pesquisar usuário
+- [x] **TextView** e **EditText** para entrada e exibição de dados
+- [x] **Button** para realizar o calculo
 
 ## 🛠️ Como Rodar o Projeto
 
@@ -73,9 +73,9 @@ O design é minimalista e fácil de usar, com foco na simplicidade.
  
  ## 🖥️ Telas do Aplicativo
 
-1. **Tela Principal**
+## 1. Tela Principal
    
-   Tela principal do app, onde é possivel ver os cadastros e pesquisar por eles.
+   Entrada de dados e o botão que realiza a oparação.
    
 ![Texto Alternativo](https://github.com/Kist19/FuelSaver/blob/master/telaprincipal_fuelsaver.jpg?raw=true)
 
