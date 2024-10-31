@@ -1,15 +1,16 @@
 # **Fuel Saver**
 
-> Aplicativo que cálcula litros necessários e o custo para uma viagem.
+> Aplicativo que realiza o cálculo de **litros necessários** e o **custo** para uma viagem.
 
 ## 📱 Descrição
 
-O **Fuel Saver** solicita a entrada de dados e retorna litros necessários e o custo para a viagem.
+O **Fuel Saver** solicita alguns dados e retorna litros necessários e o custo para uma viagem.
 
 ## 🔧 Funcionalidades
 
-- [x] Entrada de dados (NomeVeículo, PlacaVeículo, Distancia, ConsumoMédio e PreçoPorLitro)
-- [x] Cálculo Litros e custo de viagem
+- [x] Entrada de dados (NomeVeiculo, PlacaVeiculo, DistanciaPercorrida, ConsumoMedio e PrecoPorLitro)
+- [x] Cálculo de Litros e custo de viagem
+- [x] Apresentação de resultados
 - [x] Interface simples e intuitiva
 
 ## 🚀 Tecnologias Utilizadas
@@ -18,7 +19,7 @@ O **Fuel Saver** solicita a entrada de dados e retorna litros necessários e o c
 - [x] **Java** para desenvolvimento
 - [x] **ConstraintLayout** para interface responsiva
 - [x] **TextView** e **EditText** para entrada e exibição de dados
-- [x] **Button** para realizar o calculo
+- [x] **Button** para realizar o cálculo
 
 ## 🛠️ Como Rodar o Projeto
 
@@ -40,30 +41,16 @@ Siga os passos abaixo para rodar o projeto localmente:
 ├── app
 │   ├── src
 │   │   ├── main
-│   │   │  ├── java/com/example/imccalculator
-│   │   │  │  ├── MainActivity.java # Atividade principal com cálculo do IMC
+│   │   │  ├── java/br/ulbra/fuelsaver
+│   │   │  │  ├── MainActivity.java       # Atividade principal com cálculo do IMC
 │   │   │  ├──res
 │   │   │  │   ├── layout
-│   │   │  │   │   ├── activity_main.xml   #Layout da tela principal
-│   │   │  
-│   └── values
-
-
-│   │   │  
-│       ├──
-strings.xml         # Strings usadas no
-app
-
-
-│   │   │  
-│       ├── colors.xml          # Cores definidas no projeto
-
-
-│   └── build.gradle                        # Configuração do
-Gradle
-
-
-└── README.md                               # Este arquivo
+│   │   │  │   │   ├── activity_main.xml  #Layout da tela principal
+│   │   │  │   └── values
+│   │   │  │       ├──strings.xml         # Strings usadas no app
+│   │   │  │       ├── colors.xml         # Cores definidas no projeto
+│   └── build.gradle                      # Configuração do Gradle
+└── README.md                             # Este arquivo
 ```
 ## 🎨 Design e Prototipagem
  
@@ -75,7 +62,7 @@ O design é minimalista e fácil de usar, com foco na simplicidade.
 
 ## 1. Tela Principal
    
-   Entrada de dados e o botão que realiza a oparação.
+   Com os dados certos, o app faz o cálculo dos **litros necessários** e o **custo da viagem** atravez do botão **Calcular**.
    
 ![Texto Alternativo](https://github.com/Kist19/FuelSaver/blob/master/telaprincipal_fuelsaver.jpg?raw=true)
 
