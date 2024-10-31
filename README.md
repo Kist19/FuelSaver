@@ -42,7 +42,7 @@ Siga os passos abaixo para rodar o projeto localmente:
 │   ├── src
 │   │   ├── main
 │   │   │  ├── java/br/ulbra/fuelsaver
-│   │   │  │  ├── MainActivity.java       # Atividade principal com cálculo do IMC
+│   │   │  │  ├── MainActivity.java       # Atividade principal com FuelSaver
 │   │   │  ├──res
 │   │   │  │   ├── layout
 │   │   │  │   │   ├── activity_main.xml  #Layout da tela principal
